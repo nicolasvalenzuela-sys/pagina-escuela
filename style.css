@@ -87,8 +87,8 @@ footer {
 
 /* Estilo de cada tarjeta */
 .noticia-card {
-  background: #fff;
-  border: 1px solid #ddd;
+  background: #ffffff;
+  border: 1px solid #747474;
   border-radius: 8px;
   overflow: hidden;
   display: flex;
@@ -133,6 +133,65 @@ footer {
   font-weight: bold;
 }
 
+
 .contenido-noticia a:hover {
   text-decoration: underline;
+}
+/* ===== HISTORIA Y MISIÓN ===== */
+.historia-mision {
+  background-color: #ffffff;
+  padding: 60px 20px;
+}
+
+.contenedor-info {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cuadro {
+  background: rgba(250, 248, 248, 0.85);
+  flex: 1 1 45%;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  border: 1px solid #747474; /* 👈 borde negro/gris igual que las noticias */
+}
+
+.cuadro h2 {
+  color: #004080;
+  margin-top: 0;
+}
+
+/* ===== EVENTOS ===== */
+.eventos {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.eventos h2 {
+  color: #004080;
+  margin-bottom: 30px;
+}
+
+.lista-eventos {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.evento {
+  background: rgba(250, 248, 248, 0.85);
+  border-left: 6px solid #004080;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  
+}
+
+.evento h3 {
+  margin: 0 0 8px;
+  color: #004080;
 }
